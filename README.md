@@ -32,7 +32,7 @@ The program `parser.py` finds the **symbolic differentiation** of the given inpu
     `(operation left-operand right-operand)`
 
 - For example, (+ 5 7) means add five and seven. This is the basis of our binary tree.
-- 
+ 
 ```
 Given
 
