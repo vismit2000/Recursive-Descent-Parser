@@ -23,14 +23,6 @@ The program `parser.py` finds the **symbolic differentiation** of the given inpu
 
 ![R-D Parse Tree](./Images/RDP.png?raw=true "R-D Parse Tree")
 
-## Running the program 
-
-- Run the python file (one with.py extension) using the following command
-```python3
-python3 parser.py
-```
-- Enter the input expression (without any spaces) on prompt.
-
 ## Implementation:
 
 - Example: `5 * x ^ 2 + 6 * x / y - 10 * x ^ 2 * y + 100`
@@ -108,6 +100,14 @@ Finally, handle addition and subtraction, left to right
    100)
 ```
 The outermost operation is an addition, which is applied after evaluating both operands.
+
+## Running the program 
+
+- Run the python file (one with.py extension) using the following command
+```python3
+python3 parser.py
+```
+- Enter the input expression (without any spaces) on prompt.
 
 ## References :
 - http://www.cs.utsa.edu/~wagner/CS3723/rdparse/rdparser6.html
